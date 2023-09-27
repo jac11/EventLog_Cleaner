@@ -25,7 +25,12 @@ command = 'wevtutil.exe el'
 command_run =  subprocess.run(command,shell=True,capture_output=True)
 output  = command_run.stdout.decode()
 ```
-, and then clears them one by one.
+* then clears them one by one.
+  ```python
+  for EventLog  in ReadTask :
+    clean = "wevtutil.exe cl "+EventLog
+    subprocess.call(clean,shell=True,stderr=subprocess.PIPE,stdout=PIPE)
+  ```
 The GitHub repo contains an executable file that can be used for quick and easy usage.
 
 ## Readme
