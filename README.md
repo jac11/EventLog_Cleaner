@@ -32,9 +32,9 @@ output  = command_run.stdout.decode()
     subprocess.call(clean,shell=True,stderr=subprocess.PIPE,stdout=PIPE)
   ```
 The GitHub repo contains an executable file that can be used for quick and easy usage.
-## More refarence 
-[Microsoft](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-eventlog?view=powershell-5.1)
-[Clear-EventLog](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/main/reference/5.1/Microsoft.PowerShell.Management/Clear-EventLog.md)
+## More Reference 
+* [Microsoft](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-eventlog?view=powershell-5.1)
+* [Clear-EventLog](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/main/reference/5.1/Microsoft.PowerShell.Management/Clear-EventLog.md)
 
 ## Readme
 
